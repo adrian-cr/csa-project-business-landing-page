@@ -1,0 +1,143 @@
+/* GLOBAL */
+:root {
+  --primary: #4a5080;
+  --secondary: #2f3356;
+}
+
+
+* {
+  font-family: "Afacad";
+  color: var(--primary) !important;
+}
+
+h2 {
+  font-size: 5vh;
+  font-weight: 500;
+}
+
+.subheading-text {
+  font-size: 3.5vh;
+  font-weight: 400;
+}
+
+
+/* NAV BAR */
+
+header {
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  background-color: #e0e3f1;
+}
+
+#nav-logo {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.7em;
+}
+
+
+/* LANDING HERO */
+.hero-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-mask {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-title {
+  font-size: 6vh;
+  font-weight: 400;
+}
+
+.hero-subtitle {
+  color: var(--secondary) !important;
+  font-size: 3vh;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #4a5080 !important;
+  border: none !important;
+  color: white !important;
+  font-size: 2.5vh !important;
+  &:hover {
+    background-color: white !important;
+    color: #4a5080 !important;
+  }
+}
+
+/* GRID & CAROUSEL */
+
+.card {
+  border-radius: 20px;
+  align-content: center !important;
+  padding: 5%;
+}
+
+.card-body {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #f7f9ffc9;
+  color: var(--primary) !important;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 4vh;
+  font-weight: 500;
+}
+
+.card-text {
+  color: var(--secondary) !important;
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+.carousel-button {
+  z-index: 5 !important;
+}
+
+.carousel-arrow {
+  background-color: #a5adf0 !important;
+  border-radius: 10px;
+  padding: 3vh;
+}
+
+/* FORM */
+.message-form {
+  background-color: #d8daee;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #e0e3f1;
+  padding: 5%;
+}
+
+.social-icon {
+  fill: var(--primary) !important;
+  width: 5vh;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    background-color: #eaedf7;
+  }
+
+}
